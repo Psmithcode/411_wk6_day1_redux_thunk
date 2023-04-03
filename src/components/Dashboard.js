@@ -8,7 +8,7 @@ import {
     TableRow
 } from '@mui/material'
 import DeleteIcon from '@mui/icons-material/Delete'
-import Chart from '../containers/Chart'
+// import Chart from '../containers/Chart'
 import Total from '../containers/Total'
 import AddCar from '../containers/AddCar'
  
@@ -17,7 +17,7 @@ const Dashboard = (props) => {
         <Container maxWidth="lg" className="car-container">
             <h4>Welcome, {props.user.username}</h4>
             <div className="flex-container">
-                <Chart />
+                {/* <Chart /> */}
                 <Total />
                 <AddCar carTotal={props.cars.length} />
             </div>
